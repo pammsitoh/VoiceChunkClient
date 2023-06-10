@@ -1,0 +1,8 @@
+{
+  "appId": "com.belytra.voicechunk",
+  "appName": "voicechunk",
+  "webDir": "views",
+  "server": {
+    "androidScheme": "https"
+  }
+}

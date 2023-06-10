@@ -1,0 +1,20 @@
+{
+	"directories": {
+		"output": "dist"
+	},
+	"appId": "com.belytra.qvoice",
+	"productName": "BelyVoice",
+	"mac": {
+		"category": "public.app-category.productivity",
+		"target": "dmg"
+	},
+	"win": {
+		"target": "nsis"
+	},
+	"linux": {
+		"target": [
+			"deb",
+			"rpm"
+		]
+	}
+}

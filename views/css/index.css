@@ -1,0 +1,48 @@
+body {
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+
+    /* No support for these yet, use at own risk */
+    -o-user-select: none;
+    user-select: none;
+}
+
+::-webkit-scrollbar {
+  width: 0.1em;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: transparent;
+} 
+
+*:focus {
+    outline: none;
+}
+
+.bg-voicechunk-color {
+    background-color: #0079F2;
+}
+
+.bg-voicechunk-color2 {
+    background-color: #19C5FF;
+}
+
+.modal {
+    position: fixed; /* fijar el modal en la parte superior de la página */
+    z-index: 1; /* establecer la profundidad de apilamiento para asegurarse de que el modal esté en la parte superior de la página */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* agregar desplazamiento si el contenido del modal es demasiado grande para la pantalla */
+    background-color: rgba(0,0,0,0.4);
+}
+
+#visualizer {
+  background-color: blue;
+  height: 10px;
+  width: 0%;
+  transition: width 0.5s ease; /* Transición suave de 0.5 segundos */
+}
